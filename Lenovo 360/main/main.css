@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #222831;
+}
+
+.container{
+    width: 1340px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-list{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-link:hover{
+    color: #FFD369;
+}
+
+.hero{
+    margin-top: 130px;
+}
+
+.hero .container{
+   display: flex;
+   align-items: center;
+}
+
+.hero-flex{
+    margin-left: 40px;
+    margin-top: -24px;
+}
+
+.hero-h1{
+    color: #222831;
+    font-family: "Bw Stretch";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63px;
+    text-transform: uppercase;
+    padding: 0;
+    padding-bottom: 21px;
+    margin: 0;
+}
+
+.hero-text{
+    color: #222831;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 5px;
+    padding-bottom: 31px;
+}
+
+.hero-h1-p{
+    color: #000;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+    padding: 0;
+    margin: 0;
+    /* margin-top: -10px; */
+    padding-bottom: 40px;
+}
+
+.hero-link{
+    color: #222831;
+    text-align: center;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 12px 82px;
+    border: 2px solid black;
+}
+.hero-link:hover {
+    background-color: aqua;
+    color: #FFD369;
+}
+
+.figma{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.figma-ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.figma-list1{
+    margin-bottom: 50px;
+    list-style: none;
+    font-family: "Gilroy";
+}
+
+.figma-list{
+    list-style: none;
+    font-family: "Gilroy";
+    padding-bottom: 50px;
+}
+
+.figma-text{
+    color: #787878;
+}
+
+.you-h3{
+    width: 200px;
+}
+
+.you-div1{
+    display: flex;
+}
+
+.you-list{
+    margin-left: 10px;
+    list-style: none;
+    margin-top: -10px;
+    font-family: "Gilroy";
+    padding-left: 20px;
+}
+
+.you{
+    margin-top: 150px;
+    margin-left: -1150px;
+}
+
+.you-ul{
+    display: flex;
+}
+
+.you-list1{
+    list-style: none;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+.you-list2{
+    margin-left: 600px;
+    margin-top: -120px;
+    width: 277px;
+    font-family: "Gilroy";
+    list-style: none;
+}
+
+.footer .container{
+    background-color: #222831;
+}
+
+.footer-input{
+    margin-left: 300px;
+    font-size: 25px;
+    font-family: "Gilroy";
+}
+
+.footer-input1{
+    font-size: 25px;
+    font-family: "Gilroy";
+    width: 400px;
+}
+
+.footer-button{
+    font-size: 25px;
+    font-family: "Gilroy";
+    background-color: #222831;
+    border: 1px solid #FFD369;
+    color: #FFD369;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-ul{
+    margin-left: 260px;
+}
+
+.footer-list{
+    list-style: none;
+    color: #FFF;
+    font-family: "Gilroy";
+}
+
+.blog{
+    margin-top: 100px;
+    background-color: #222831;
+}
+
+.blog .container{
+    display: flex;
+    align-items: center;
+}
+
+.blog-list{
+    margin-left: 350px;
+    list-style: none;
+}
+
+.blog-li{
+    margin-left: 150px;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: "Gilroy";
+}

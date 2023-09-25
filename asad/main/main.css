@@ -1,0 +1,491 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-devanagari_latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* header */
+  .container {
+    width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .header .container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-ul {
+    display: flex;
+    margin-left: -360px;
+  }
+  .header-li {
+    list-style: none;
+    padding-left: 40px;
+  }
+  .header-button {
+    width: 160px;
+    height: 54px;
+    top: 40px;
+    left: 1212px;
+    border-radius: 27px;
+    background-color: #6EBF4B;
+    color: white;
+    list-style: none;
+  }
+  .header-img-icon {
+    margin-right: -260px;
+  }
+  /* hero */
+  .hero-h1 {
+    font-family: "Sharp Sans No1";
+font-size: 76px;
+font-weight: 770;
+line-height: 95px;
+width: 596px;
+  }
+  .hero-p {
+    font-family: Sharp Sans No1;
+font-size: 24px;
+font-weight: 750;
+line-height: 34px;
+width: 467px;
+height: 102px;
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+  .hero-button {
+    width: 200px;
+height: 64px;
+top: 727px;
+left: 135px;
+border-radius: 50px;
+background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  }
+  .hero-icon {
+    width: 750.24px;
+height: 561.02px;
+top: 561.4px;
+left: 553px;
+border-radius: 115px;
+padding-top: 40px;
+  }
+  .hero-li {
+    list-style: none;
+  }
+  .header-link {
+    text-decoration: none;
+    color: black;
+  }
+  .hero-link:hover {
+    color: #2C9553;
+  }
+  .hero .container {
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .you-h1 {
+    font-family:" Sharp Sans No1";
+font-size: 54px;
+font-weight: 770;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+  }
+  .you-p {
+    font-family: "Sharp Sans No1";
+font-size: 24px;
+font-weight: 750;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #3B433E;
+  }
+  .you-li {
+    width: 270px;
+height: 245px;
+list-style: none;
+  }
+  .you-img {
+    width: 100px;
+height: 100px;
+margin-left: 40px;
+  }
+  .you-h2 {
+    font-family: "Sharp Sans No1";
+font-size: 28px;
+font-weight: 770;
+width: 303px;
+height: 35px;
+text-align: center;
+margin-left: -54px;
+  }
+  .you-p-text {
+    font-family: "Sharp Sans No1";
+font-size: 18px;
+font-weight: 750;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+width: 236px;
+height: 56px;
+margin-left: -17px;
+  }
+  .you-ul {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    margin-left: 226px;
+  }
+  .you-h3 {
+    font-family: "Sharp Sans No1";
+font-size: 44px;
+font-weight: 780;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .you-text {
+    font-family: "Sharp Sans No1";
+    font-size: 20px;
+    font-weight: 760;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+  }
+  .you-ull {
+    display: flex;
+    margin-left: 231px;
+  }
+  .you-list {
+    list-style: none;
+    width: Hug (701px);
+    height: Hug (100px);
+    left: 379px;
+    padding-left: 150px;
+  }
+  .guys-h4 {
+    font-family: "Sharp Sans No1";
+font-size: 54px;
+font-weight: 770;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+  }
+  .guys-p {
+    font-family: "Sharp Sans No1";
+font-size: 22px;
+font-weight: 750;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .guys-link {
+    margin-top:20px ;
+    font-family: "Sofia Pro";
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+width: 210px;
+height: 64px;
+border-radius: 50px;
+background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+
+  }
+  .guys-img {
+    padding-top: 30px;
+  }
+  .guys-ul {
+    padding-top: 69px;
+    width: 449px;
+    padding-left: 172px;
+    margin-right: 74px;
+  }
+.guys-li {
+  list-style: none;
+}
+.guys .container {
+  display: flex;
+}
+.our-h5 {
+  font-family: "Sharp Sans No1";
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 428px;
+height: 136px;
+}
+.our-p {
+  font-family: "Sharp Sans No1";
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 514px;
+height: 170px;
+}
+.our-link {
+  font-family: 'Sofia Pro';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 210px;
+height: 64px;
+border-radius: 50px;
+background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+}
+.our-li {
+  list-style: none;
+}
+.our .container {
+  margin-top: 80px;
+  display: flex;
+}
+.asr-li {
+  list-style: none;
+}
+.asr-h5 {
+  font-family: Sharp Sans No1;
+font-size: 54px;
+font-weight: 770;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+width: 366px;
+height: 136px;
+}
+.asr-p {
+  font-family: Sharp Sans No1;
+font-size: 22px;
+font-weight: 750;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+width: 500px;
+height: 170px;
+}
+.asr-link {
+  width: 301px;
+height: 28px;
+top: 3553px;
+padding: 0px, 0px, 3px, 0px;
+}
+.asr-text {
+  font-family: Sharp Sans No1;
+font-size: 20px;
+font-weight: 750;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+width: 274px;
+height: 25px;
+left: 37px;
+color: #181D19;
+
+}
+.hero-span {
+  font-family: "Sharp Sans No1";
+  font-size: 76px;
+  font-weight: 770;
+  line-height: 95px;
+  width: 596px;
+color: #64BB47;
+
+}
+.asr .container {
+  display: flex;
+}
+.asr-img {
+  width: 20px;
+height: 20px;
+margin-top: 23px;
+margin-right: 10px;
+border-radius: 3px;
+background: #6EBF4B;
+}
+.asr-link {
+  display: flex;
+  text-decoration: none;
+}
+.asr-img-s {
+  padding-top: 40px;
+} 
+.Lenovo{
+    margin-top: 100px;
+}
+
+.Lenovo-ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Lenovo-list{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.Lenovo-h3{
+    width: 174px;
+    font-size: 30px;
+}
+
+.Lenovo-text{
+    width: 293px;
+    font-size: 18px;
+}
+
+.Lenovo-ul-li{
+    margin-left: 500px;
+}
+
+.Lenovo-text-li{
+    margin-left: -50px;
+}
+
+.Lenovo-list-ul{
+    list-style: none;
+}
+
+.Lenova-button-list{
+    list-style: none;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.Lenovo-button{
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    background-color: #64BB47;   
+}
+
+.he-div1{
+    display: flex;
+}
+
+.he-ul{
+    display: flex;
+}
+
+.he-list{
+    list-style: none;
+    margin-left: 20px;
+    width: 170px;
+}
+
+.he-img{
+    margin-left: 448px;
+}
+
+.he-li{
+    list-style: none;
+}
+
+.he-text1{
+    margin-top: 150px;
+    margin-left: -317px;
+    list-style: none;
+    width: 456px;
+    font-size: 18px;
+}
+
+.he{
+    margin-top: 100px;
+}
+
+.he-img-list{
+    margin-top: 100px;
+    margin-left: 567px;
+}
+
+.he-ul1{
+    margin-left: -100px;
+}
+
+.he-h1-text{
+    margin-left: 500px;
+    font-size: 54px;
+}
+
+.vivo-input{
+    font-size: 18px;
+    border-radius: 165px;
+    padding: 12px 50px;
+}
+
+.vivo-list{
+    list-style: none;
+    margin-left: 420px;
+}
+
+.vivo-button{
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    background-color: #64BB47;
+    margin-left: 20px;
+}
+
+.vivo-list1{
+    margin-left: 500px;
+    list-style: none;
+}
+
+.vivo-h1{
+    margin-left: 25px;
+}
+
+.footer-ul-li{
+    display: flex;
+}
+
+.footer-li-ul{
+    padding-left: 100px;
+    list-style: none;
+    margin-top: -100px;
+}
+
+.footer-txt{
+    color: #657582;
+}
+
+.footer-li-ul1{
+    margin-left: 500px;
+    list-style: none;
+    margin-top: -100px;
+}
+
+.footer{
+    background-color: #FCFCFC;
+    margin-top: 150px;
+}
+
+.footer-ul{
+    margin-top: 100px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.div-footer{
+    background-color: #64BB47;
+}
+
+.h2-footer{
+    align-items: center;
+    margin-left: 450px;
+    color: #FFFFFF;
+}
